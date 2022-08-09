@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    --twitter-color:#50b7f5;
+    --twitter-background:#e6ecf0
+}
+.row {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+/* ist column  */
+.fa-twitter {
+    font-size: 30px;
+    color: var(--twitter-color);
+    padding: 10px 6px;
+}
+.fa-twitter:hover {
+    background-color: var(--twitter-background);
+    cursor: pointer;
+    border-radius: 50%;
+    height: 47px;
+    width: 47px;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    padding: 12px 6px;
+    gap: 20px;
+}
+.icons .active {
+    color: var(--twitter-color);
+}
+.icons:hover {
+    background-color: var(--twitter-background);
+    border-radius: 30px;
+    cursor: pointer;
+}
+.icons i {
+    font-size: 20px;
+}
+.sidebar {
+    height: 100vh;
+    width: 20%;
+    padding: 5px 5px;
+    border-right: 1px solid var(--twitter-background);
+    position: sticky;
+    top: 0;
+}
+      /* left side btn */
+.btn_tweet {
+    background-color: var(--twitter-color);
+    padding: 13px 0;
+    width: 80%;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+/*<===============Styling Tweeter Box===================>*/
+.middle {
+    width: 520px;
+    border-right: 2px solid var(--twitter-background);
+    overflow-y: scroll;
+}
+.middle::-webkit-scrollbar {
+    display: none;
+}
+.tweeter-box {
+    border-bottom: 2px solid var(--twitter-background);
+    padding: 2rem 3rem;
+}
+.tweeter-box h1 {
+   margin-bottom: 2rem;
+}
+.tweeter-box form {
+    margin-bottom: 4rem;
+    padding: 3px 4px;
+}
+form input {
+    border: none;
+    font-size: 1.5rem;
+    outline: none;
+}
+form i {
+    background-color: var(--twitter-color);
+    border-radius: 50%;
+    padding: 15px 15px;
+    font-size: 2rem;
+}
+.tweeter-box .tweet {
+    display: flex;
+    align-items: center;
+    gap: 22rem;
+}
+    /* tweet box button */
+.tweet button {
+    padding: 4px 13px;
+    background-color: var(--twitter-color);
+    border-radius: 30rem;
+    color: white;
+    border: none;
+    font-size: 1.3rem;
+    cursor: pointer;    
+}
+    /*==================Styling posts=================*/
+
+.post-1 {
+    margin-top: 1.5rem;
+    cursor: pointer;
+    border-bottom: 2px solid gray;
+}
+.post-1:hover {
+    background-color: var(--twitter-background);
+}
+.post1-header {
+    display: flex;
+    gap: 15px;
+    padding: 5px 10px;
+    margin-bottom: 1rem;
+}
+.text-one {
+    display: flex;
+}
+.text-one h3:hover {
+    text-decoration: underline;
+    border-bottom-color: var(--twitter-background);
+}
+.post1-header i {
+    background-color: red;
+    font-size: 1rem;
+    padding: 15px;
+    border-radius: 50%;
+    height: 40px;
+    width: 43px;
+}
+.post1-img {
+    width: 80%;
+    margin: 0 auto;
+}    
+.post1-img img {
+    height: 270px;
+    width: 380px;
+    object-fit: cover;
+    border-radius: 30px;  
+}
+   /* For Videos */
+.post1-img video {
+    height: 270px;
+    width: 380px;
+    object-fit: cover;
+    border-radius: 30px;
+    cursor: pointer;  
+}    
+.post1-img i {
+    font-size: 1rem;
+    margin-right: 3rem;
+    margin-top: 1rem;
+    padding: 15px;
+}
+.post1-img i:hover {
+    background-color: var(--twitter-color);
+    border-radius: 50%;
+}
+ /*<+++++++++++Styling the right side++++++++++++++>*/
+.right-side {
+    margin-left: 35px;
+    margin-top: 10px;
+}
+.right-header {
+    margin-bottom: 3rem;
+    position: relative;
+}
+.right-header input {
+    padding: 8px 4rem;
+    border-radius: 30px;
+    outline: none;
+    border: 1px solid var(--twitter-background);
+    font-size: 1rem;
+}
+.right-header i {
+    position: absolute;
+    left: 5px;
+    top: 10px;
+}
+.right-content {
+    background-color: gray;
+    padding: 10px 10px;
+    border-radius: 30px;
+}
+.right-widget {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 10px;
+    gap: 8rem;
+    cursor: pointer;
+    padding: 5px 5px;
+}
+.right-widget:hover {
+    background-color: var(--twitter-background);
+}
+.text-3 p {
+    font-size: 15px;
+}
+.text-3 h3 {
+    font-size: 19px;
+}
+ /* building circle ellipsis  */
+.text3-icon {
+    display: flex;
+    align-items: center;
+    gap: 1.5px;
+}
+.icon-1 {
+    padding: 1.2px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+

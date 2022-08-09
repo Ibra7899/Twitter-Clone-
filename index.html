@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Page</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="/index.css">
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <section class="twitter">
+        <div class="row">
+            <!---------------------Left side ------------------------>
+            <div class="sidebar">
+                <i class="fa-brands fa-twitter"></i>
+                <div class="icons  active">
+                    <i class="fa-solid fa-house-user"></i>
+                    <h2>Home</h2>
+                </div>
+                <div class="icons">
+                    <i class="fa-solid fa-hashtag"></i>
+                    <h2>Explore</h2>
+                </div>
+                <div class="icons">
+                    <i class="fa-solid fa-bell"></i>
+                    <h2>Notifications</h2>
+                </div>
+                <div class="icons">
+                    <i class="fa-solid fa-envelope"></i>
+                    <h2>Messages</h2>
+                </div>
+                <div class="icons">
+                    <i class="fa-solid fa-bookmark"></i>
+                    <h2>Bookmarks</h2>
+                </div>
+                <div class="icons">
+                    <i class="fa-solid fa-clipboard-list"></i>
+                    <h2>Lists</h2>
+                </div>
+                <div class="icons">
+                    <i class="fa-solid fa-user"></i>
+                    <h2>Profile</h2>
+                </div>
+                <div class="icons">
+                    <i class="fa-solid fa-circle-info"></i>
+                    <h2>More</h2>
+                </div>
+                <button class="btn_tweet">Tweet</button>
+            </div>
+            <!--------------------End of left side----------------->
+
+            <!------------------- Middle part/Feeds--------------------->
+            <div class="middle">
+                <!-- tweeter box-->
+                <div class="tweeter-box">
+                    <h1>Home</h1>
+                    <form action="">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" placeholder="What's happening?" id="tweet">
+                    </form>
+                    <div class="tweet">
+                        <h2 id="message"></h2>
+                        <button id="btn">Tweet</button>
+                    </div>
+                </div>
+                <!-- End of tweeter box -->
+                <!-- Post strats -->
+                <!--*****Post one*****-->
+                <div class="post-1">
+                    <div class="post1-header">
+                        <i class="fa-solid fa-user"></i>
+                        <div class="header1-text">
+                            <div class="text-one">
+                                <h3> Citizen TV Kenya</h3>
+                                <span>@citizentvkenya . 2h</span>
+                            </div>
+                            <p>When farmers thrive the nation grows. We have committed to improving farmer returns
+                                through improved education and extension services, value addition and the adoption of
+                                technology.</p>
+                        </div>
+                    </div>
+                    <div class="post1-img">
+                        <img src="./images/ruto.jpg" alt="">
+                        <div class="post-icons">
+                            <i class="fa-solid fa-comment"></i>
+                            <i class="fa-solid fa-retweet"></i>
+                            <i class="fa-solid fa-heart"></i>
+                            <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                        </div>
+                    </div>
+                </div>
+                <!--*****Post two*****-->
+                <div class="post-1">
+                    <div class="post1-header">
+                        <i class="fa-solid fa-user"></i>
+                        <div class="header1-text">
+                            <div class="text-one">
+                                <h3>Mohamed Alfaras</h3>
+                                <span>@mohamedalfaras .1h</span>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, perspiciatis.</p>
+                        </div>
+                    </div>
+                    <div class="post1-img">
+                        <video src="/videos/Noor Alzain And Mohamed Alfaras.mp4" controls></video>
+                        <div class="post-icons">
+                            <i class="fa-solid fa-comment"></i>
+                            <i class="fa-solid fa-retweet"></i>
+                            <i class="fa-solid fa-heart"></i>
+                            <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- Post end -->
+            </div>
+            <!-------------------End of middle part--------------------->
+
+            <!--<===============Right side================>-->
+            <div class="right-side">
+                <div class="right-header">
+                    <input type="search" name="" id="" placeholder="Search Twitter">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="right-content">
+                    <h2>Trends For You</h2>
+                    <div class="right-widget">
+                        <div class="text-3">
+                            <p>News . Trending</p>
+                            <h3>Breaking News</h3>
+                            <p>56.2k Tweets</p>
+                        </div>
+                        <div class="text3-icon">
+                            <div class="icon-1"></div>
+                            <div class="icon-1"></div>
+                            <div class="icon-1"></div>
+                        </div>
+                    </div>
+                    <div class="right-widget">
+                        <div class="text-3">
+                            <p>News . Trending</p>
+                            <h3>Breaking News</h3>
+                            <p>56.2k Tweets</p>
+                        </div>
+                        <div class="text3-icon">
+                            <div class="icon-1"></div>
+                            <div class="icon-1"></div>
+                            <div class="icon-1"></div>
+                        </div>
+                    </div>
+                    <div class="right-widget">
+                        <div class="text-3">
+                            <p>News . Trending</p>
+                            <h3>Breaking News</h3>
+                            <p>56.2k Tweets</p>
+                        </div>
+                        <div class="text3-icon">
+                            <div class="icon-1"></div>
+                            <div class="icon-1"></div>
+                            <div class="icon-1"></div>
+                        </div>
+                    </div>
+                    <div class="right-widget">
+                        <div class="text-3">
+                            <p>News . Trending</p>
+                            <h3>Breaking News</h3>
+                            <p>56.2k Tweets</p>
+                        </div>
+                        <div class="text3-icon">
+                            <div class="icon-1"></div>
+                            <div class="icon-1"></div>
+                            <div class="icon-1"></div>
+                        </div>
+                    </div>
+                    <div class="right-widget">
+                        <div class="text-3">
+                            <p>News . Trending</p>
+                            <h3>Breaking News</h3>
+                            <p>56.2k Tweets</p>
+                        </div>
+                        <div class="text3-icon">
+                            <div class="icon-1"></div>
+                            <div class="icon-1"></div>
+                            <div class="icon-1"></div>
+                        </div>
+                    </div>
+                    <div class="right-widget">
+                        <div class="text-3">
+                            <p>News . Trending</p>
+                            <h3>Breaking News</h3>
+                            <p>56.2k Tweets</p>
+                        </div>
+                        <div class="text3-icon">
+                            <div class="icon-1"></div>
+                            <div class="icon-1"></div>
+                            <div class="icon-1"></div>
+                        </div>
+                    </div>
+                    <div class="right-widget">
+                        <div class="text-3">
+                            <p>News . Trending</p>
+                            <h3>Breaking News</h3>
+                            <p>56.2k Tweets</p>
+                        </div>
+                        <div class="text3-icon">
+                            <div class="icon-1"></div>
+                            <div class="icon-1"></div>
+                            <div class="icon-1"></div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+
+
+
+
+            <!--<===============End of Right side================>-->
+            
+
+        </div>
+    </section>
+
+    <script src="/index.js"></script>
+    <script src="./js/signin.js"></script>
+</body>
+
+</html>

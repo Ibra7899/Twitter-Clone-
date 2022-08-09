@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    --twitter-color:#50b7f5;
+    --twitter-background:#e6ecf0
+}
+
+.login-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section1 {
+    /* position: relative; */
+}
+/*<=================Left Side=========================>*/
+.left {
+    background-image: url(/images/twitter\ Login\ page.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 113vh;
+    background-position: center;
+    width: 54%;
+    position: relative;
+}
+#icon1 {
+    font-size: 55vh;
+    color: white;
+    position: absolute;
+    top: 27%;
+    left: 24%;
+}
+/*<=======================Right side===================>*/
+#icon2 {
+    font-size: 40px;
+    color: var(--twitter-color);
+    margin-top: 20px;
+    margin-left: 7%;
+}
+
+.right {
+    width: 46%;
+    height: 113vh;
+}
+
+.content {
+    margin-left: 7%;
+    margin-top: 2vh;
+}
+
+.content h1 {
+    padding: 30px 0;
+    font-size: 65px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-family: 'open sans', sans-serif;
+}
+
+.content h3 {
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: 'open sans', sans-serif;
+    font-weight: bold;
+}
+
+.content-btn {
+    display: flex;
+    flex-direction: column;
+    margin-left: 7%;
+    margin-top: 9vh;
+    gap: 40px;
+    width: fit-content;
+}
+.bar {
+    position: relative;
+}
+.progress-bar1 {
+    height: 2px;
+    width: 43%;
+    background-color: #ccc;
+}
+.progress-bar2 {
+    height: 2px;
+    width: 43%;
+    background-color: #ccc;
+    position: absolute;
+    top: 0;
+    left: 54%;
+}
+.bar p {
+    position: absolute;
+    top: -9px;
+    left: 46%;
+}
+.content-btn button {
+    padding: 8px 25px; 
+    width: 300px;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.content-btn .sign-up {
+    background-color: #71c9f8;
+    color: black;
+    color: black;
+}
+.content-btn .sign-up a {
+    color: black;
+}
+.content-btn button a {
+    text-decoration: none;
+    font-size: medium;
+    color: #71c9f8;
+}
+
+/*******************Footer******************************/
+.footer  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 98%;
+    margin: auto;
+}
+.footer ul li {
+    display: inline-block;
+    margin: 10px 1px;
+    padding: 0 1px;
+    width: fit-content;
+    /* text-align: center; */
+}
+.footer ul li a {
+    text-decoration: none;
+    text-align: center;
+}
+.footer ul li a:hover{
+    text-decoration: underline;
+}
+
+/*********************Sign In form***************************/
+.sign-In {
+    position: absolute;
+    height: 550px;
+    width: 550px;
+    top: 3vh;
+    left: 28%;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 2px 2px 4px whitesmoke;
+    border: none;
+    display: none;
+}
+.close-icon {
+    padding: 20px;
+    cursor: pointer;
+}
+.sign-in-header {
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sign-in-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-left: 8em;
+    margin-top: 3rem;
+    gap: 3rem;
+}
+.sign-in-form input {
+    padding: 15px 10px;
+    text-align: center;
+    border: none;
+    border: 1px solid var(--twitter-background);
+    border-radius: 30px;
+    font-size: 17px;
+}
+.sign-in-form  button {
+    padding: 10px 10px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/*********************Sign Up form*************************/
+.sign-Up {
+    position: absolute;
+    top: 3vh;
+    left: 28%;
+    height: 550px;
+    width: 550px;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 2px 2px 4px whitesmoke;
+    display: none;
+}
+.sign-up-header {
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.sign-up-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-left: 8rem;
+    margin-top: 3rem;
+    gap: 2.5rem;
+}
+.sign-up-form input {
+    padding: 10px 13px;
+    text-align: center;
+    border: 1px solid var(--twitter-background);     
+}
+.sign-up-form button {
+    padding: 12px 10px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    font-size: 1.5em;
+}
